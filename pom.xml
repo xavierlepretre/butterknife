@@ -35,6 +35,7 @@
     <robolectric.version>2.2</robolectric.version>
     <fest.android.version>1.0.7</fest.android.version>
     <compile-test.version>0.6</compile-test.version>
+    <stickylist.version>2.5.2</stickylist.version>
   </properties>
 
   <scm>
@@ -88,6 +89,15 @@
         <artifactId>compile-testing</artifactId>
         <version>${compile-test.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>se.emilsjolander</groupId>
+        <artifactId>stickylistheaders</artifactId>
+        <version>${stickylist.version}</version>
+        <type>aar</type>
+        <optional>true</optional>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 
